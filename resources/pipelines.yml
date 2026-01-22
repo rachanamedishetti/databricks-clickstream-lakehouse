@@ -1,0 +1,10 @@
+resources:
+  pipelines:
+    clickstream_dlt:
+      name: clickstream_dlt_pipeline
+      catalog: clickstream_prod
+      schema: analytics
+      development: true
+      libraries:
+        - file:
+            path: ../dlt/
