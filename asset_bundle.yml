@@ -1,0 +1,12 @@
+bundle:
+  name: clickstream-lakehouse
+
+resources:
+  pipelines:
+    clickstream_dlt:
+      name: clickstream_dlt_pipeline
+      target: clickstream_prod.analytics
+      development: true
+      libraries:
+        - file:
+            path: dlt/
