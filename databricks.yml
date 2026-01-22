@@ -3,3 +3,8 @@ bundle:
 
 include:
   - resources/*.yml
+
+targets:
+  dev:
+    workspace:
+      host: https://dbc-304753af-23bd.cloud.databricks.com
