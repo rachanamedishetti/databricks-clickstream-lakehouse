@@ -7,4 +7,4 @@ resources:
       development: true
       libraries:
         - file:
-            path: ../dlt/
+            path: ../dlt/*.py
